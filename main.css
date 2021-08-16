@@ -4,7 +4,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
 #backgroundbody {
     background-repeat: no-repeat;
@@ -13,4 +13,21 @@
     background: url(background.png);
     background-size: cover;
     background-color: rgb(255, 255, 255);
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+    background: #ffffff;
+    color: #000000;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
