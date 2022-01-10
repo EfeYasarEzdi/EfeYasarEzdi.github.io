@@ -1,122 +1,157 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
 }
 
 body{
-    background-image: url("İmages/bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+      background-color: rgb(58, 58, 58);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar{
-    background: rgb(24, 24, 24);
-    text-align: center;
-    opacity: 0.8;
+#top{
+      width: auto;
+      height: 65px;
 }
 
-.navbar ul{
-    display: inline-flex;
-    list-style: none;
+#top h2{
+      color: white;
+      margin-left: 30%;
+      margin-top: 40px;
+      font-weight: 200;
 }
 
-.navbar ul li{
-    width: 150px;
-    margin: 15px;
-    padding: 15px;
+#top #ig{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      float: right;
+      margin-right: 500px;
+      margin-bottom: 10px;
 }
 
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
+#top #git{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      float: right;
+      margin-right: 10px;
 }
 
-.navbar ul li:hover{
-    background: rgb(61, 61, 61);
-    border-radius: 10px;
-    opacity: 0.8;
-    -webkit-transition: all 0.5s;
-    transition: all 0.2s;
+
+#top .fab{
+      font-size: 20pt;
 }
 
-.navbar .fas{
-    margin-right: 8px;
+#top a:hover{
+      background-color: rgb(150, 150, 150);
+      border-radius: 5rem;
+      transition: all 0.2s;
+      -webkit-transition: all 0.2s;
 }
 
-.navbar .fab{
-    margin-right: 8px;
+.main{
+      width: 960px;
+      height: 1025px;
+      background-color: white;
+      margin: auto;
+      border-radius: 2.5rem;
 }
 
-.logo{
-    text-align: center;
-    margin-top: 7%;
+#tittle{
+      background-color:rgb(197, 32, 32) ;
+      width: auto;
+      height: 350px;
+      border-radius: 2.5rem;
 }
 
-.name{
-    text-align: center;
-    font-size: 45px;
-    font-weight: bold;
+#tittle h3{
+      color: white;
+      font-size: 35pt;
+      padding-top: 45px;
+      padding-left: 50px;
+      font-weight: 300;
 }
 
-.unvan{
-    text-align: center;
-    font-size: 25px;
+#tittle p{
+      color: white;
+      font-size: 18pt;
+      padding-left: 95px;
+      padding-top: 35px;
 }
 
-.baslik1{
-    text-align: center;
-    font-size: 50px;
-    font-style: italic;
-    margin-top: 40px;
+#web{
+      width: 350px;
+      height: 150px;
+      position: relative;
+      bottom: 100px;
+      left: 50%;
 }
 
-.aciklama1{
-    text-align: center;
-    font-size: 20px;
+.about{
+      font-size: 33px;
+      margin-left: 45px;
+      margin-top: 25px;
+      width: 350px;
+      height: 250px;
 }
 
-.ey{
-    text-align: center;
-    margin-top: 25px;
+.about p{
+      font-size: 20px;
 }
 
-.button{
-    margin-top: 40px;
-    margin-left: 530px;
+#mylogo{
+      position: relative;
+      float: right;
+      bottom: 250px;
+      right: 50px;
 }
 
-.button a:hover{
-    opacity: 0.7;
-    -webkit-transition: all 0.5s;
-    transition: all 0.2s;
+#edu{
+      position: relative;
+      top: 50px;
+      left: 45px;
+      font-size: 33px;
 }
 
-.ataturk{
-    text-align: center;
+
+#ilk p{
+      position: relative;
+      top: 15px;
+      left: 15px;
+      font-size: 20pt;
+      border-left: 2px solid red;
+      padding-left: 25px;
 }
 
-.art{
-    text-align: center;
-    margin-top: 35px;
+#contact{
+      position: relative;
+      top: 100px;
+      left: 45px;
+      font-size: 33px;
 }
 
-.art img:hover{
-    opacity: 0.5;
-    -webkit-transition: all 0.5s;
-    transition: all 0.2s;
+#dc{
+      position: relative;
+      top: 25px;
 }
 
-.discord{
-    margin-top: 20px;
-    text-align: center;
+#alt{
+      text-align: center;
+      color: white;
 }
 
-.isim{
-    font-size: 35px;
-    text-align: center;
+#alt h2{
+      font-weight: 300;
+}
+
+#alt a{
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+}
+
+#alt a:hover{
+      background-color: rgb(150, 150, 150);
+      border-radius: 5rem;
+      transition: all 0.2s;
+      -webkit-transition: all 0.2s;
 }
