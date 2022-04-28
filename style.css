@@ -1,157 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Titillium+Web&display=swap');
+
 *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-      background-color: rgb(58, 58, 58);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-#top{
-      width: auto;
-      height: 65px;
+.navbar{
+    width: auto;
+    height: 70px;
+    background-color: #2C2F33;
 }
 
-#top h2{
-      color: white;
-      margin-left: 30%;
-      margin-top: 40px;
-      font-weight: 200;
+.navbar ul{
+    display: inline-flex;
+    list-style-type: none;
 }
 
-#top #ig{
-      text-decoration: none;
-      color: rgb(255, 255, 255);
-      float: right;
-      margin-right: 500px;
-      margin-bottom: 10px;
+.navbar ul li{
+    width: 80px;
+    height: 80px;
 }
 
-#top #git{
-      text-decoration: none;
-      color: rgb(255, 255, 255);
-      float: right;
-      margin-right: 10px;
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 905px;
+    top: 15px;
 }
 
-
-#top .fab{
-      font-size: 20pt;
+.navbar ul li a:hover{
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    border-radius: 0.5rem;
+    background-color: #5865F2;
 }
 
-#top a:hover{
-      background-color: rgb(150, 150, 150);
-      border-radius: 5rem;
-      transition: all 0.2s;
-      -webkit-transition: all 0.2s;
+.active a{
+    background-color: #5865F2;
+    border-radius: 0.5rem;
 }
 
-.main{
-      width: 960px;
-      height: 1025px;
-      background-color: white;
-      margin: auto;
-      border-radius: 2.5rem;
+.container{
+    width: auto;
+    height: 600px;
+    background-image: url("images/container.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-bottom: 5px solid white;
 }
 
-#tittle{
-      background-color:rgb(197, 32, 32) ;
-      width: auto;
-      height: 350px;
-      border-radius: 2.5rem;
+#name{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 50pt;
+    color: white;
 }
 
-#tittle h3{
-      color: white;
-      font-size: 35pt;
-      padding-top: 45px;
-      padding-left: 50px;
-      font-weight: 300;
+#rank{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 35pt;
+    color: white;
 }
 
-#tittle p{
-      color: white;
-      font-size: 18pt;
-      padding-left: 95px;
-      padding-top: 35px;
+#logo{
+    text-align: center;
+    position: relative;
+    top: 100px;
 }
 
-#web{
-      width: 350px;
-      height: 150px;
-      position: relative;
-      bottom: 100px;
-      left: 50%;
+.projects{
+    width: auto;
+    height: 600px;
+    background-image: url("images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-bottom: 5px solid white;
 }
 
-.about{
-      font-size: 33px;
-      margin-left: 45px;
-      margin-top: 25px;
-      width: 350px;
-      height: 250px;
+#about{
+    text-align: center;
+    color: white;
+    font-size: 50pt;
+    position: relative;
+    top: 20px;
 }
 
-.about p{
-      font-size: 20px;
+#pragraf{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 35pt;
 }
 
-#mylogo{
-      position: relative;
-      float: right;
-      bottom: 250px;
-      right: 50px;
+.iletisim{
+    width: auto;
+    height: 400px;
+    background-image: url("images/contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-bottom: 5px solid white;
 }
 
-#edu{
-      position: relative;
-      top: 50px;
-      left: 45px;
-      font-size: 33px;
-}
-
-
-#ilk p{
-      position: relative;
-      top: 15px;
-      left: 15px;
-      font-size: 20pt;
-      border-left: 2px solid red;
-      padding-left: 25px;
-}
-
-#contact{
-      position: relative;
-      top: 100px;
-      left: 45px;
-      font-size: 33px;
+#ilet{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: #5663F7;
+    font-size: 50pt;
 }
 
 #dc{
-      position: relative;
-      top: 25px;
+    text-align: center;
+    font-size: 45pt;
+    color: black;
+    position: relative;
+    top: 20px;
 }
 
-#alt{
-      text-align: center;
-      color: white;
+#ig{
+    text-align: center;
+    font-size: 45pt;
+    color: black;
+    position: relative;
+    top: 20px;
 }
 
-#alt h2{
-      font-weight: 300;
+#git{
+    text-align: center;
+    font-size: 45pt;
+    color: black;
+    position: relative;
+    top: 20px;
 }
 
-#alt a{
-      text-decoration: none;
-      color: white;
-      font-size: 25px;
+.alt{
+    width: auto;
+    height: 90px;
+    background-color: #2C2F33;
 }
 
-#alt a:hover{
-      background-color: rgb(150, 150, 150);
-      border-radius: 5rem;
-      transition: all 0.2s;
-      -webkit-transition: all 0.2s;
+#alttext{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    top: 25px;
+}
+
+.uyari{
+    text-align: center;
+    background-image: url("images/container.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    height: 900px;
+}
+
+#alertt{
+    color: white;
+    font-size: 50pt;
+    position: relative;
+    top: 350px;
 }
