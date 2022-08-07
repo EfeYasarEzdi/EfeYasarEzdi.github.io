@@ -1,183 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
-body{
+html body{
+    background-color:#1e2124;
     font-family: 'Titillium Web', sans-serif;
 }
 
-.navbar{
-    width: auto;
-    height: 70px;
-    background-color: #2C2F33;
-}
-
-.navbar ul{
-    display: inline-flex;
-    list-style-type: none;
-}
-
-.navbar ul li{
-    width: 80px;
-    height: 80px;
-}
-
-.navbar ul li a{
-    text-decoration: none;
+.content{
+    width: 900px;
+    height: 500px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin: auto;
+    margin-top: 120px;
     color: white;
-    font-size: 30px;
-    position: relative;
-    left: 905px;
-    top: 15px;
-}
-
-.navbar ul li a:hover{
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    border-radius: 0.5rem;
-    background-color: #5865F2;
-}
-
-.active a{
-    background-color: #5865F2;
-    border-radius: 0.5rem;
-}
-
-.container{
-    width: auto;
-    height: 600px;
-    background-image: url("images/container.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    border-bottom: 5px solid white;
+    border-radius: 1rem;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 #name{
-    text-align: center;
     position: relative;
     top: 50px;
-    font-size: 50pt;
-    color: white;
+    left: 100px;
+    font-size: 65px;
 }
 
-#rank{
-    text-align: center;
+#comment{
+    position: relative;
+    top: 60px;
+    left: 100px;
+    font-size: 35px;
+}
+
+#me{
+    float: right;
+    position: relative;
+    right: 70px;
+    bottom: 90px;
+    border-radius: 50%;
+}
+
+#insta{
+    text-decoration: none;
+    color: white;
+    font-size: 95px;
     position: relative;
     top: 50px;
-    font-size: 35pt;
-    color: white;
-}
-
-#logo{
-    text-align: center;
-    position: relative;
-    top: 100px;
-}
-
-.projects{
-    width: auto;
-    height: 600px;
-    background-image: url("images/bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    border-bottom: 5px solid white;
-}
-
-#about{
-    text-align: center;
-    color: white;
-    font-size: 50pt;
-    position: relative;
-    top: 20px;
-}
-
-#pragraf{
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 30px;
-    font-size: 35pt;
-}
-
-.iletisim{
-    width: auto;
-    height: 400px;
-    background-image: url("images/contact.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    border-bottom: 5px solid white;
-}
-
-#ilet{
-    text-align: center;
-    position: relative;
-    top: 20px;
-    color: #5663F7;
-    font-size: 50pt;
-}
-
-#dc{
-    text-align: center;
-    font-size: 45pt;
-    color: black;
-    position: relative;
-    top: 20px;
-}
-
-#ig{
-    text-align: center;
-    font-size: 45pt;
-    color: black;
-    position: relative;
-    top: 20px;
+    left: 180px;
 }
 
 #git{
-    text-align: center;
-    font-size: 45pt;
-    color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 95px;
     position: relative;
-    top: 20px;
+    top: 50px;
+    left: 210px;
+}
+
+#insta:hover{
+    color: #5851DB;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+#git:hover{
+    color: #5851DB;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+.bio{
+    width: 900px;
+    height: 500px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin: auto;
+    margin-top: 120px;
+    color: white;
+    border-radius: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#baslik{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#mybio{
+    text-align: center;
+    font-size: 35px;
+}
+
+#imza{
+    position: relative;
+    bottom: 60px;
+    left: 200px;
+}
+
+.contact{
+    width: 900px;
+    height: 500px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin: auto;
+    margin-top: 120px;
+    color: white;
+    border-radius: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#cBaslik{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#coming-soon{
+    text-align: center;
+    font-size: 90px;
+    position: relative;
+    top: 90px;
 }
 
 .alt{
     width: auto;
-    height: 90px;
-    background-color: #2C2F33;
-}
-
-#alttext{
     text-align: center;
     color: white;
-    font-size: 35px;
-    position: relative;
-    top: 25px;
-}
-
-.uyari{
-    text-align: center;
-    background-image: url("images/container.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: auto;
-    height: 900px;
-}
-
-#alertt{
-    color: white;
-    font-size: 50pt;
-    position: relative;
-    top: 350px;
 }
