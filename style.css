@@ -63,6 +63,15 @@ html body{
     left: 210px;
 }
 
+#linkedin{
+    text-decoration: none;
+    color: white;
+    font-size: 95px;
+    position: relative;
+    top: 50px;
+    left: 240px;
+}
+
 #insta:hover{
     color: #5851DB;
     transition: all 0.2s;
@@ -70,6 +79,12 @@ html body{
 }
 
 #git:hover{
+    color: #5851DB;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+#linkedin:hover{
     color: #5851DB;
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -122,15 +137,44 @@ html body{
     top: 10px;
 }
 
-#coming-soon{
-    text-align: center;
-    font-size: 90px;
-    position: relative;
-    top: 90px;
-}
-
 .alt{
     width: auto;
     text-align: center;
     color: white;
+}
+
+#iletisim{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+}
+
+#maill #mail{
+    outline: none;
+    border: black 1px solid;
+    border-radius: 0.5rem;
+}
+
+#mesaj #urmsg{
+    outline: none;
+    border: black 1px solid;
+    border-radius: 0.5rem;
+}
+
+#sub{
+    border:none;
+    outline: none;
+    border-radius: 0.5rem;
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+}
+
+#sub:hover{
+    background-color: rgb(77, 136, 77);
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
 }
