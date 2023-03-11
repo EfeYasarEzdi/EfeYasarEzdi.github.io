@@ -3,68 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/elogo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/7564d5beea.js" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Efe Yaşar Ezdi</title>
 </head>
 <body>
 
     <div class="content">
-      <h1 id="name">Efe Yaşar Ezdi</h1>
-      <h6 id="comment">Web Developer | IT Student</h6>
-      <img id="me" src="images/ben.png" alt="Efe Yaşar Ezdi" width="150px" height="150px">
-      <a id="insta" href="https://bit.ly/3Jgr0GT"><i class="fa-brands fa-instagram"></i></a>
-      <a id="git" href="https://bit.ly/3vw6nRd"><i class="fa-brands fa-github"></i></a>
-      <a id="linkedin" href="https://bit.ly/3AlD72C"><i class="fa-brands fa-linkedin"></i></a>
+        <div id="main-box">
+            <div id="box-content">
+                <img id="foto" src="images/me.jpg">
+            <h1 id="isim">Efe Yaşar Ezdi</h1>
+            <p id="info"></p>
+            <a id="linkedin-btn" href="https://www.linkedin.com/in/efe-ya%C5%9Far-ezdi-a92879248/"><i class='bx bxl-linkedin-square' ></i></a>
+            <a id="instagram-btn" href="https://instagram.com/efeyasarezdi"><i class='bx bxl-instagram' ></i></a>
+        </div>
+        </div>
+
+        <div id="main-box">
+            <div id="box-content">
+                <h1 id="baslik">Deneyimler</h1>
+                <div id="basari">
+                    <div class="ui-widgets1">
+                        <div class="ui-labels">HTML</div>
+                    </div>
+    
+                    <div class="ui-widgets2">
+                        <div class="ui-labels">CSS</div>
+                    </div>
+    
+                    <div class="ui-widgets3">
+                        <div class="ui-labels">JS</div>
+                    </div>
+    
+                    <div class="ui-widgets4">
+                        <div class="ui-labels">ASP.NET</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-box">
+            <div id="box-content">
+                <h1 id="baslik">Eğitim</h1>
+
+                <div class="okul">
+                    <p id="oisim">Pendik Türk Telekom Şehit Murat Mertel Mesleki Ve Teknik Anadolu Lisesi</p>
+                    <p id="osene">Eylül 2019 - Haziran 2023</p>
+                    <p id="oalan">Bilişim Teknolojileri - Web Programcılığı</p>
+                </div>
+            </div>
+            </div>
+        </div>
     </div>
 
-    <div class="bio">
-        <h1 id="baslik">Hakkımda</h1>
-        <p id="mybio">12.Sınıf lise öğrencisiyim. İstanbul'da doğdum İstanbul'da büyüyorum ve yaşıyorum.
+    <div id="main-box">
+        <div id="box-content">
+            <h1 id="baslik">Staj</h1>
 
-            Küçüklüğümden beri bilgisayarlara olan tutkum ile bilişim okumaya başladım.
-            
-            Eğitimimi Pendik Türk Telekom Mesleki Ve Teknik Anadolu Lisesi'nde görüyorum.
-            
-            Ayriyetten Web Tasarımcılığı İle Uğraşıyorum.</p>
-
-            <img id="imza" src="images/imza.png">
+            <div class="okuls">
+                <p id="oisim">T.C Sosyal Güvenlik Kurumu - Beşiktaş Sosyal Güvenlik Merkezi</p>
+                <p id="osene">Haziran 2022 - Ağustos 2022</p>
+                <p id="oalan">İşyeri Tescil Servisi</p>
+            </div>
+        </div>
+        </div>
     </div>
 
-    <div class="contact">
-        <h1 id="cBaslik">İletişim</h1>
-        
-        <form  id="iletisim"   action="https://formspree.io/f/xyyvyjqo" method="POST">
-          <table id="iletisim-form">
-            <tr>
-              <td id="eposta">E-Postanız : </td>
-              <td><input type="text" id="maill"></td>
-            </tr>
-
-            <tr>
-              <td id="mesajiniz">Mesajınız : </td>
-              <td><input type="text" id="urmsg"></td>
-            </tr>
-            <tr>
-              <td><input type="button" id="sub" value="Gönder"></td>
-            </tr>
-          </table>
-        </form>
+    <div id="main-box">
+        <div id="box-content">
+            <h1 id="baslik">Projeler</h1>
+            <div class="yakinda">
+                <p id="msg">Kişisel Olarak Geliştireceğim Projeler Pek Yakında Paylaşıma Sunulacak!</p>
+            </div>
     </div>
-
-    <div class="alt">
-        <p id="alt-text">2022 - Efe Yaşar Ezdi</p>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</div>
+
+    
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
-
-
-
-
