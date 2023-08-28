@@ -1,305 +1,225 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
 
+:root{
+    --max-width: 1200px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
 
 body{
-    font-family: 'Ubuntu', sans-serif;
-    background-color: rgba(68,13,164,1);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333333;
+    z-index: 99;
+}
+
+.nav-content{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25pt;
+}
+
+nav .logo{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav .logo:hover{
+    color: #6534f1;
+}
+
+nav .checkbox{
+    display: none;
+}
+
+nav input{
+    display: none;
+}
+
+nav .checkbox i{
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+}
+
+ul li a{
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    border-top-color: #6534f1;
+    border-bottom-color:#6534f1;
+    color: #6534f1;
+}
+
+.sectionn{
+    background-color: #6534f1;
+}
+
+.section-container{
+    min-height: 100vh;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#subtitle{
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+#title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+#title span{
+    font-weight: 300;
+}
+
+#desc{
+    line-height: 1.5rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.actn-btn{
+    display: flex;
+    gap: 1rem;
+}
+
+.actn-btn button{
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    color: #6534f1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.actn-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    transition: 0.3s;
+}
+
+.actn-btn a:hover{
+    color: #333333;
+}
+
+.my-cv:hover{
+    background-color: #333333;
     color: white;
 }
 
-#main-box{
-    width: 90%;
-    height: 750px;
-    background-color: rgb(22, 25, 35);
-    margin: auto;
-    border-radius: 1rem;
-    text-align: center;
-    margin-top: 55px;
+.image{
+    display: grid;
+    place-items: center;
 }
 
-#foto{
-    width: 150px;
-    height: 150px;
+.image img{
+    width: min(15rem, 90%);
     border-radius: 100%;
 }
 
-#box-content{
-    position: relative;
-    top: 150px;
-}
+@media (width < 750px){
+    nav .checkbox{
+        display: block;
+    }
 
-#isim{
-    text-align: center;
-    position: relative;
-    top: 25px;
-    font-size: 75px;
-}
-
-#info{
-    text-align: center;
-    font-size: 35px;
-}
-
-#linkedin-btn{
-    text-decoration: none;
-    color: white;
-    font-size: 150px;
-}
-
-#linkedin-btn:hover{
-    color: rgb(133, 133, 133);
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-}
-
-#instagram-btn{
-    text-decoration: none;
-    color: white;
-    font-size: 150px;
-}
-
-#instagram-btn:hover{
-    color: rgb(133, 133, 133);
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-}
-
-#baslik{
-    font-size: 55px;
-    position: relative;
-    bottom: 80px;
-}
-
-
-.ui-widgets1 {
-    position: relative;
-    display: inline-block;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 9rem;
-    margin:1.5rem;
-    border: 1.2rem solid rgb(42, 45, 54);
-    box-shadow: inset 0 0 25px black;
-    border-left-color: chartreuse;
-    border-top-color:chartreuse ;
-    border-bottom-color: chartreuse ;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-.ui-widgets1 .ui-labels {
-    left: 0;
-    bottom: -16px;
-    text-shadow: 0 0 6px black;
-    color:white;
-    position: absolute;
-    width: 100%;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-
-.ui-widgets2 {
-    position: relative;
-    display: inline-block;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 9rem;
-    margin:1.5rem;
-    border: 1.2rem solid rgb(42, 45, 54);
-    box-shadow: inset 0 0 25px black;
-    border-left-color: chartreuse;
-    border-top-color:chartreuse ;
-    border-bottom-color: chartreuse ;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-
-
-.ui-widgets2 .ui-labels {
-    left: 0;
-    bottom: -16px;
-    text-shadow: 0 0 6px black;
-    color:white;
-    position: absolute;
-    width: 100%;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-
-.ui-widgets3 {
-    position: relative;
-    display: inline-block;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 9rem;
-    margin:1.5rem;
-    border: 1.2rem solid rgb(42, 45, 54);
-    box-shadow: inset 0 0 25px black;
-    border-bottom-color: chartreuse;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-
-.ui-widgets3 .ui-labels {
-    left: 0;
-    bottom: -16px;
-    text-shadow: 0 0 6px black;
-    color:white;
-    position: absolute;
-    width: 100%;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-
-.ui-widgets4 {
-    position: relative;
-    display: inline-block;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 9rem;
-    margin:1.5rem;
-    border: 1.2rem solid rgb(42, 45, 54);
-    box-shadow: inset 0 0 25px black;
-    border-bottom-color: chartreuse;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-
-.ui-widgets4 .ui-labels {
-    left: 0;
-    bottom: -16px;
-    text-shadow: 0 0 6px black;
-    color:white;
-    position: absolute;
-    width: 100%;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.okul{
-    width: 20%;
-    height: 250px;
-    border-left: 1.2rem solid red;
-    margin: auto;
-    position: relative;
-    right: 100px;
-}
-
-.okuls{
-    width: 20%;
-    height: 250px;
-    border-left: 1.2rem solid chartreuse;
-    margin: auto;
-    position: relative;
-    right: 100px;
-}
-
-#oisim{
-    font-weight: bold;
-    font-size: 30px;
-    width: 550px;
-    position: relative;
-    left: 15px;
-}
-
-#osene{
-    width: 550px;
-    font-size: 25px;
-}
-
-#oalan{
-    width: 550px;
-    font-size: 30px;
-    position: relative;
-    left: 15px;
-}
-
-.yakinda{
-    width: 20%;
-    height: 250px;
-    border-left: 1.2rem solid lightskyblue;
-    margin: auto;
-    position: relative;
-    right: 100px;
-}
-
-#msg{
-    font-weight: bold;
-    font-size: 30px;
-    width: 550px;
-    position: relative;
-    left: 15px;
-    top: 70px;
-}
-
-@media screen and (max-width:414px) {
-    #main-box{
+    ul{
+        position: absolute;
         width: 100%;
+        height: calc(100vh -85px);
+        left: -100%;
+        top: 85px;
+        background-color: #333333;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
     }
 
-    #box-content{
-        top: 40px;
+    nav #check:checked ~ ul{
+        left: 0;
     }
 
-    #baslik{
-        bottom: 10px;
+    ul li a{
+        font-size: 1.25rem;
     }
 
-    .ui-widgets1{
-        width: 6rem;
-        height: 6rem;
+    .section-container{
+        padding: 10rem 1rem 5rem 1rem;
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .ui-widgets2{
-        width: 6rem;
-        height: 6rem;
+    .image{
+        grid-area: 1/1/2/2;
     }
 
-    .ui-widgets3{
-        width: 6rem;
-        height: 6rem;
-    }
-
-    .ui-widgets4{
-        width: 6rem;
-        height: 6rem;
-    }
-
-    .okul{
+    .actn-btn{
         margin: auto;
     }
+    
+}
 
-    .okuls{
-        margin: auto;
-    }
+#yetenekler{
+    color: white;
+    font-size: 25pt;
+    font-weight: 700;
+}
 
-    .yakinda{
-        margin: auto;
-    }
-
-    #oisim{
-        width: 300px;
-        font-size: 20px;
-    }
-
-    #osene{
-        width: 300px;
-        font-size: 15px;
-    }
-
-    #oalan{
-        width: 300px;
-        font-size: 18px;
-    }
-
-    #msg{
-        width: 300px;
-        font-size: 20px;
-    }
+#yetenekler ul{
+    display: flex;
+    text-align: center;
 }
