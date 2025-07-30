@@ -45,7 +45,7 @@ nav .logo{
 }
 
 nav .logo:hover{
-    color: #6534f1;
+    color: 	#fdb912;
 }
 
 nav .checkbox{
@@ -80,13 +80,13 @@ ul li a{
 }
 
 ul li a:hover{
-    border-top-color: #6534f1;
-    border-bottom-color:#6534f1;
-    color: #6534f1;
+    border-top-color: #a90432;
+    border-bottom-color:#a90432;
+    color: #a90432;
 }
 
 .sectionn{
-    background-color: #6534f1;
+    background-color: #a90432;
 }
 
 .section-container{
@@ -141,14 +141,14 @@ ul li a:hover{
     outline: none;
     border-radius: 10px;
     border: none;
-    color: #6534f1;
+    color: #a90432;
     transition: 0.3s;
     cursor: pointer;
 }
 
 .actn-btn a{
     text-decoration: none;
-    color: #6534f1;
+    color: #a90432;
     font-size: 1rem;
     transition: 0.3s;
 }
@@ -158,7 +158,7 @@ ul li a:hover{
 }
 
 .my-cv:hover{
-    background-color: #333333;
+    background-color: 	#fdb912;
     color: white;
 }
 
