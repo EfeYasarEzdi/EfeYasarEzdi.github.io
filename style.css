@@ -80,8 +80,6 @@ ul li a{
 }
 
 ul li a:hover{
-    border-top-color: #a90432;
-    border-bottom-color:#a90432;
     color: #a90432;
 }
 
